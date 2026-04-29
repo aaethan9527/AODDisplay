@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!-- 左上角: 日期和周几 -->
+    <TextView
+        android:id="@+id/dateWeekText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:fontFamily="@font/roboto_light"
+        android:text="2026-04-29 Wednesday" />
+
+    <!-- 屏幕中央: 小时和分钟 (24小时制) -->
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="120sp"
+        android:fontFamily="@font/roboto_light"
+        android:text="14:30"
+        android:letterSpacing="0.1" />
+
+    <!-- 右下角: 秒钟 -->
+    <TextView
+        android:id="@+id/secondText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="45" />
+
+</FrameLayout>
