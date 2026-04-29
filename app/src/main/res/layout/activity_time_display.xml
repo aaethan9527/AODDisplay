@@ -13,7 +13,7 @@
         android:layout_margin="20dp"
         android:textColor="@android:color/white"
         android:textSize="24sp"
-        android:fontFamily="@font/roboto_light"
+        android:fontFamily="sans-serif-light"
         android:text="2026-04-29 Wednesday" />
 
     <!-- 屏幕中央: 小时和分钟 (24小时制) -->
@@ -24,7 +24,7 @@
         android:layout_gravity="center"
         android:textColor="@android:color/white"
         android:textSize="120sp"
-        android:fontFamily="@font/roboto_light"
+        android:fontFamily="sans-serif-light"
         android:text="14:30"
         android:letterSpacing="0.1" />
 
@@ -37,7 +37,7 @@
         android:layout_margin="20dp"
         android:textColor="@android:color/white"
         android:textSize="32sp"
-        android:fontFamily="@font/roboto_regular"
+        android:fontFamily="sans-serif"
         android:text="45" />
 
 </FrameLayout>
